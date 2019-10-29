@@ -1,4 +1,4 @@
-planeteer_calls = ["earth", "wind", "fire", "water", "heart"])
+planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 
 def roll_call_dwarves(dwarves)
 index=0
