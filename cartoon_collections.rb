@@ -8,8 +8,11 @@ dwarves.each_with_index{ |item, index| puts "#{index + 1}.#{item}"
 end
 
 def summon_captain_planet(array)
-planeteer_calls.map! {planeteer_calls << "#{name.capitalize}!" }
-planeteer_calls
+  planeteer_calls = []
+    array.map! { |calls|
+      planeteer_calls << "#{calls.capitalize}!"
+  }
+    planeteer_calls
 end
 
 
