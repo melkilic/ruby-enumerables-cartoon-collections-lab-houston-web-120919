@@ -1,9 +1,8 @@
 def roll_call_dwarves(dwarves)
-puts dwarves.to_i
 dwarves.each_with_index{ |item, index|
   dwarves[item] = index
 }
-dwarves# code an argument here
+puts dwarves.to_i# code an argument here
   # Your code here
 end
 
